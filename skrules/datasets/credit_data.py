@@ -18,8 +18,9 @@ Science.
 
 import pandas as pd
 import numpy as np
-from sklearn.datasets.base import get_data_home, Bunch
-from sklearn.datasets.base import _fetch_remote, RemoteFileMetadata
+from sklearn.datasets import get_data_home
+from sklearn.utils import Bunch
+from sklearn.datasets._base import _fetch_remote, RemoteFileMetadata
 from os.path import exists, join
 
 
